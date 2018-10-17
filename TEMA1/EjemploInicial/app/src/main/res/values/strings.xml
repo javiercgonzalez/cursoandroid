@@ -8,5 +8,6 @@
     <string name="pulsado2">Boton2</string>
     <string name="pulsado3">Boton3</string>
     <string name="mensaje">No hay dato introducido</string>
+    <string name="ejemplo">ejemplo de mensaje</string>
 
 </resources>
