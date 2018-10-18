@@ -30,52 +30,54 @@
         android:text="Seleccionado" />
 
     <RadioButton
+        android:id="@+id/radioIndividual1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Radio Indepediente 1"
         android:checked="true"
-        android:id="@+id/radioIndividual1"/>
+        android:text="Radio Indepediente 1" />
 
     <RadioButton
+        android:id="@+id/radioIndividual2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Radio Indepediente 2"
         android:checked="false"
-        android:id="@+id/radioIndividual2"/>
+        android:text="Radio Indepediente 2" />
 
     <RadioGroup
+        android:id="@+id/grupoRadios"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/grupoRadios">
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Radio Grupo 1"
-            android:checked="true"
-            android:id="@+id/radioGrupo1"/>
+        android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/radioGrupo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Radio Grupo 2"
+            android:checked="true"
+            android:text="Radio Grupo 1" />
+
+        <RadioButton
+            android:id="@+id/radioGrupo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:checked="false"
-            android:id="@+id/radioGrupo2"/>
+            android:text="Radio Grupo 2" />
     </RadioGroup>
 
     <ToggleButton
+        android:id="@+id/togButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textOff="Apagado"
-        android:textOn="Encendido"
         android:checked="true"
-        android:id="@+id/togButton"/>
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/fondo_tog"
+        />
 
     <Switch
+        android:id="@+id/switchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
-        android:id="@+id/switchButton"
-        />
+        android:checked="true" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,24 +85,50 @@
         android:orientation="horizontal">
 
         <SeekBar
+            android:id="@+id/seekBar"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:id="@+id/seekBar"
-            android:min="0"
-            android:max="100"/>
+            android:max="100"
+            android:min="0" />
 
         <TextView
+            android:id="@+id/textSeek"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textSeek"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="comprobar"
-        android:id="@+id/botonComprobar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/botonComprobar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/fondo_boton"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imagenPrueba"
+                android:src="@android:drawable/ic_input_add"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 </LinearLayout>

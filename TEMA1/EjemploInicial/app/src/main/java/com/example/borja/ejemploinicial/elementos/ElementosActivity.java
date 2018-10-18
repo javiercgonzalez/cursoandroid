@@ -1,11 +1,16 @@
 package com.example.borja.ejemploinicial.elementos;
 
+import android.annotation.SuppressLint;
+import android.content.res.TypedArray;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
@@ -20,13 +25,14 @@ public class ElementosActivity extends AppCompatActivity implements CompoundButt
         View.OnClickListener, RadioGroup.OnCheckedChangeListener {
 
     CheckBox checkBox1, checkBox2, checkBox3;
-    Button boton;
+    ImageButton boton;
     RadioButton radioInd1, radioGrupo1, radioGrupo2;
     RadioGroup grupoRadios;
     ToggleButton togButton;
     Switch aSwitch;
     SeekBar seekBar;
     TextView textoProgreso;
+    ImageView imagen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +41,8 @@ public class ElementosActivity extends AppCompatActivity implements CompoundButt
         instancias();
         acciones();
         seekBar.setProgress(100);
+        int[] imagenes = getResources().getIntArray(R.array.numeros);
+
     }
 
     private void acciones() {
@@ -97,6 +105,7 @@ public class ElementosActivity extends AppCompatActivity implements CompoundButt
         aSwitch = findViewById(R.id.switchButton);
         seekBar = findViewById(R.id.seekBar);
         textoProgreso = findViewById(R.id.textSeek);
+        imagen = findViewById(R.id.imagenPrueba);
     }
 
     @Override
@@ -122,6 +131,7 @@ public class ElementosActivity extends AppCompatActivity implements CompoundButt
         }
     }
 
+    @SuppressLint("ResourceType")
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -138,12 +148,15 @@ public class ElementosActivity extends AppCompatActivity implements CompoundButt
                     radioInd1.setChecked(true);
                     break;
                 }*/
-                if (togButton.isChecked()) {
+                /*if (togButton.isChecked()) {
                     togButton.setChecked(false);
                 } else if (!togButton.isChecked()) {
                     togButton.setChecked(true);
                     break;
-                }
+                }*/
+                TypedArray cartas = getResources().obtainTypedArray(R.array.imagenes);
+                int aleatorio = (int) (Math.random()*13);
+                imagen.setImageResource(cartas.getResourceId(aleatorio,0));
         }
     }
 
