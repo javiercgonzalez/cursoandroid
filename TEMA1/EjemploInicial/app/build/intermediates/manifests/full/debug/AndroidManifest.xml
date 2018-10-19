@@ -16,7 +16,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.borja.ejemploinicial.layouts.MainActivity" />
         <activity android:name="com.example.borja.ejemploinicial.intents.SegundaActivity" />
@@ -30,6 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.borja.ejemploinicial.repaso.RepasoUno" />
     </application>
 
 </manifest>

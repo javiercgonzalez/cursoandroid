@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="ejmplos">
+
+        <item>1</item>
+
+    </integer-array>
+
+    <array name="ejemplo2">
+
+        <item>@drawable/up_press</item>
+
+    </array>
+</resources>

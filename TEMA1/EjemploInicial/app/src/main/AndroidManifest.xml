@@ -12,7 +12,7 @@
         <activity android:name=".layouts.MainActivity" />
         <activity android:name=".intents.SegundaActivity" />
         <activity android:name=".intents.TeceraActivity" />
-        <activity android:name=".layouts.TableActivity"/>
+        <activity android:name=".layouts.TableActivity" />
         <activity android:name=".layouts.GridActivity" />
         <activity android:name=".elementos.ElementosActivity">
             <intent-filter>
@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".repaso.RepasoUno"></activity>
     </application>
 
 </manifest>
