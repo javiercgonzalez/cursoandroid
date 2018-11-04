@@ -56,7 +56,7 @@ public class RepasoUno extends AppCompatActivity implements View.OnClickListener
         imagenRapaso.setImageResource(R.drawable.c1);
 
         int[] aNumeros = getResources().getIntArray(R.array.ejmplos);
-        TypedArray imagenes = getResources().getTextArray(R.array.ejemplo2);
+        //TypedArray imagenes = getResources().getTextArray(R.array.ejemplo2);
     }
 
     @Override

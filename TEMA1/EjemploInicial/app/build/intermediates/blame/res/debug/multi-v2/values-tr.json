@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/borja/AndroidStudioProjects/EjemploInicial/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/Users/borja/Documents/GitHub/cursoandroid/TEMA1/EjemploInicial/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/Users/borja/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/559243275f5e55663546730bccfbe69c/res/values-tr/values-tr.xml",

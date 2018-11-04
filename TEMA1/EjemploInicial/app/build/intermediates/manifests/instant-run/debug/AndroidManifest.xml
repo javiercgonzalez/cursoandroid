@@ -23,7 +23,10 @@
         <activity android:name="com.example.borja.ejemploinicial.intents.TeceraActivity" />
         <activity android:name="com.example.borja.ejemploinicial.layouts.TableActivity" />
         <activity android:name="com.example.borja.ejemploinicial.layouts.GridActivity" />
-        <activity android:name="com.example.borja.ejemploinicial.elementos.ElementosActivity" >
+        <activity android:name="com.example.borja.ejemploinicial.elementos.ElementosActivity" />
+        <activity android:name="com.example.borja.ejemploinicial.repaso.RepasoUno" />
+        <activity android:name="com.example.borja.ejemploinicial.elementos.ElementosAvanzadosActivity" />
+        <activity android:name="com.example.borja.ejemploinicial.elementos.ListaActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

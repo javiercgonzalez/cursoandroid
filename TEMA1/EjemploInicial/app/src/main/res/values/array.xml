@@ -24,4 +24,34 @@
         <item>@drawable/c12</item>
         <item>@drawable/c13</item>
     </array>
+
+    <string-array name="ligas">
+        <item>Liga Santander</item>
+        <item>Premier</item>
+        <item>Calcio</item>
+    </string-array>
+
+    <array name="equipos_ligas">
+        <item>@array/españa</item>
+        <item>@array/inglaterra</item>
+        <item>@array/italia</item>
+    </array>
+
+    <string-array name="españa">
+        <item>Madrid</item>
+        <item>Barsa</item>
+        <item>Atleti</item>
+    </string-array>
+
+    <string-array name="inglaterra">
+        <item>City</item>
+        <item>Manchester</item>
+        <item>Chelsea</item>
+    </string-array>
+
+    <string-array name="italia">
+        <item>Milan</item>
+        <item>Juve</item>
+        <item>Napoles</item>
+    </string-array>
 </resources>

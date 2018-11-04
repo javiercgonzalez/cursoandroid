@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/borja/AndroidStudioProjects/EjemploInicial/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "outputFile": "/Users/borja/Documents/GitHub/cursoandroid/TEMA1/EjemploInicial/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "/Users/borja/AndroidStudioProjects/EjemploInicial/app/src/main/res/values-en/strings.xml",
+                    "source": "/Users/borja/Documents/GitHub/cursoandroid/TEMA1/EjemploInicial/app/src/main/res/values-en/strings.xml",
                     "from": {
                         "startLines": "4,11,5,6,7,3,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
